@@ -1,0 +1,5 @@
+{
+    "eslint.enable": true,
+    "python.linting.enabled": true,
+    "python.pythonPath": "/Users/chamrouen/Documents/Learn_flask/yourenv/bin/python3.8"
+}
