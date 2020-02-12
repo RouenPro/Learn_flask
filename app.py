@@ -1,9 +1,11 @@
 from flask import Flask
-
 app = Flask(__name__)
 
-@app.route('/')
+@app.route("/")
 def hello():
-    return 'Welcome to Flask framework'
+    return "Hello World!"
 
-app.run(port=5000)
+
+
+if __name__ == "__main__":
+    app.run(port=80)
